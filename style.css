@@ -34,7 +34,8 @@ label {
   font-weight: 500;
 }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
   padding: 0.5rem;
   margin-top: 0.3rem;
@@ -68,6 +69,15 @@ button:hover {
 
 #response {
   text-align: center;
-  font-size: 1.2rem;
   margin-top: 2rem;
+}
+
+#response p {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ff6b6b;
+  /* Exploring a punchy color or keeping white? Let's use accent color or white. */
+  color: #fff;
+  margin: 0;
+  line-height: 1.2;
 }
