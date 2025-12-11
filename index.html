@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solicita un Favor</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Solicita un Favor</h1>
+        <form id="favorForm">
+            <label for="nombre">Tu nombre</label>
+            <input type="text" id="nombre" name="nombre" required />
+
+            <label for="favor">¿Qué favor necesitas?</label>
+            <textarea id="favor" name="favor" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="response" class="hidden">
+            <p>Solicíteselo a quien le importe.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
